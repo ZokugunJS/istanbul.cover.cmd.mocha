@@ -1,0 +1,31 @@
+{
+	"name": "@zokugun/istanbul.cover.cmd.mocha",
+	"description": "Istanbul will use Mocha tests to cover your code",
+	"version": "0.4.0",
+	"author": {
+		"name": "Baptiste Augrain",
+		"email": "daiyam@zokugun.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ZokugunJS/istanbul.cover.cmd.mocha"
+	},
+	"bugs": {
+		"url": "https://github.com/ZokugunJS/istanbul.cover.cmd.mocha/issues"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "http://www.opensource.org/licenses/mit-license.php"
+		}
+	],
+	"main": "src/istanbul.cover.cmd.mocha.js",
+	"peerDependencies" : {
+		"istanbul": "^0.4",
+		"mocha": ""
+	},
+	"keywords": [
+		"mocha",
+		"istanbul"
+	]
+}
